@@ -1,4 +1,4 @@
-# SQE Technical Test — API & UI Automation
+# SQE Technical Test: API & UI Automation
 
 Test automation for the Swagger Petstore API and the Sauce Demo UI, built with
 [Playwright Test](https://playwright.dev/) and TypeScript.
