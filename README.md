@@ -33,8 +33,7 @@ npx playwright test --project=ui --debug   # step through with the Inspector
 ```
 
 Both suites run against the public hosted demo services
-(`https://petstore.swagger.io` and `https://www.saucedemo.com`) — no
-environment variables or local services are required.
+(`https://petstore.swagger.io` and `https://www.saucedemo.com`)
 
 ## Reporting
 
