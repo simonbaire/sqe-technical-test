@@ -3,10 +3,9 @@
 ## Approach
 
 Playwright was chosen because it gives one framework, one config, and
-one reporter for both API and UI testing. Per the brief, only one API test 
+one reporter for both API and UI testing. Only one API test 
 and one UI test are actually implemented. Everything else is deliberately 
-scoped out and listed under "Additional scenarios" below, in priority order, 
-as if there had been more time.
+scoped out and listed under "Additional scenarios" below, in priority order.
 
 ## What was implemented
 
