@@ -9,7 +9,7 @@ scoped out and listed under "Additional scenarios" below, in priority order.
 
 ## What was implemented
 
-### API — `/pet` (Swagger Petstore)
+### API: `/pet` (Swagger Petstore)
 
 **Implemented scenario**
 - Creates a pet via `POST /pet` then the test verifies the response returns 
@@ -25,7 +25,7 @@ comment with its **Approach** and **Rationale**.
 - Test to validate that id must be entered via `GET /pet/{id}` with an id that doesn't exist → expect `404`
 - Test to ensure pet name is entered `POST /pet` without the required `name` field.
 
-### UI — Sauce Demo checkout
+### UI: Sauce Demo checkout
 
 **Implemented scenario**
 - `standard_user` adds an item and completes checkout. This covers the primary
