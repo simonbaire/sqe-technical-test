@@ -18,7 +18,7 @@ a GET request via `GET /pet/{id}`  to proves it was actually persisted and indep
 
 **Scenarios to implement with more time**
 Three more API scenarios are stubbed out in `pet.spec.ts` with
-`test.fixme(...)` rather than fully implemented — each has a `// TODO`
+`test.fixme(...)` rather than fully implemented. Each has a `// TODO`
 comment with its **Approach** and **Rationale**.
 
 - Test to ensure pet status can be updated via`PUT /pet` to change an existing pet's `status`, then confirm via `GET`.
@@ -33,7 +33,7 @@ comment with its **Approach** and **Rationale**.
 
 **Scenarios to implement with more time**
 Two more UI scenarios are stubbed out in `check-out.spec.ts` with
-`test.fixme(...)` rather than fully implemented — each has a `// TODO`
+`test.fixme(...)` rather than fully implemented. Each has a `// TODO`
 comment with its **Approach** and **Rationale**.
 
 - Log in with an invalid username/password and expect an error message as credentials are not valid.
