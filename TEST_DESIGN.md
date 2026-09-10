@@ -44,8 +44,8 @@ In addition to these tests the following would also be critical additions:
 
 - Broaden status code assertions beyond `200` and `404` to cover the full range
   `/pet` can return (e.g. `400` for malformed input, `405` for unsupported
-  methods) so error-handling regressions are caught, not just the
-  happy-path status.
+  methods) so error handling regressions are caught, not just the
+  happy path status.
 
 - Longer term, performance/load testing to confirm the API enforces a rate
   limit (`429`) under sustained load. This sits outside Playwright's
@@ -64,7 +64,7 @@ Two more UI scenarios are stubbed out in `check-out.spec.ts` with
 `test.fixme(...)` rather than fully implemented. Each has a `// TODO`
 comment with its **Approach** and **Rationale**.
 
-The API tests are where the functional/business-logic coverage lives
+The API tests are where the functional/business logic coverage lives
 (pricing, persistence, validation rules), so the UI tests should be kept light.
 The job of the UI tests is to check what a user actually sees and interacts
 with, not to reprove logic the API tests already cover. With this in mind the following

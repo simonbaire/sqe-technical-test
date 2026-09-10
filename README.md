@@ -47,7 +47,7 @@ The default `list` reporter also prints a console summary as tests run.
 
 ## Design notes
 
-- **API tests** use Playwright's built-in `request` fixture. No extra HTTP
+- **API tests** use Playwright's built in `request` fixture. No extra HTTP
   client is needed.
 - **UI tests** use the Page Object Model so element locators live in one
   place per page and the test bodies read as user facing steps.
