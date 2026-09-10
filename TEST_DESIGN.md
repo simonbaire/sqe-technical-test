@@ -17,6 +17,7 @@ the submitted `id`, `name`, `photoUrls`, and `status`. It then proceeds to do
 a GET request via `GET /pet/{id}`  to proves it was actually persisted and independently retrievable.
 
 **Scenarios to implement with more time**
+
 Three more API scenarios are stubbed out in `pet.spec.ts` with
 `test.fixme(...)` rather than fully implemented. Each has a `// TODO` comment 
 with its **Approach** and **Rationale**.
@@ -58,6 +59,7 @@ In addition to these tests the following would also be critical additions:
   revenue generating user journey end to end.
 
 **Scenarios to implement with more time**
+
 Two more UI scenarios are stubbed out in `check-out.spec.ts` with
 `test.fixme(...)` rather than fully implemented. Each has a `// TODO`
 comment with its **Approach** and **Rationale**.
